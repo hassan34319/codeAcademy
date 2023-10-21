@@ -1,4 +1,4 @@
-import SuccessDisclosure from "./(SuccessDiscolusure)/Disclosure";
+
 
 interface StripeProduct {
   id: string;
