@@ -16,7 +16,7 @@ type Instructor = {
   image: Image;
 };
 
-export const revaldiate = 60;
+export const revalidate = 60;
 
 export default async function Instructors() {
   const query = `*[_type == "instructor"]`;

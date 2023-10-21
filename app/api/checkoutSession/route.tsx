@@ -39,7 +39,7 @@ export async function POST(
         payment_intent_data: {},
         mode: "payment",
         success_url: `${process.env.NEXT_PUBLIC_BASE_URL}success?session_id={CHECKOUT_SESSION_ID}`,
-        cancel_url: `${process.env.NEXT_PUBLIC_BASE_URL}checkout`,
+        cancel_url: `${process.env.NEXT_PUBLIC_BASE_URL}`,
         metadata: {
           // address: body.address,
           user : user,
