@@ -24,7 +24,7 @@ async function page({ params }: { params: { slug: string } }) {
           {event[0].description}
         </p>
         <div className="mt-2 md:mt-4 lg:mt-8 w-full lg:w-[90%] lg:flex lg:flex-row lg:justify-between lg:mx-auto ">
-          <div className="relative md:w-[90%] w-[95%] mx-auto lg:h-[75vh] xl:h-[67vh] md:h-[35vh] h-[40vh]  lg:w-[60%]">
+          <div className="relative md:w-[90%] w-[95%] mx-auto lg:h-[75vh] xl:h-[75vh] md:h-[35vh] h-[40vh]  lg:w-[60%]">
             <Image
               alt="event1"
               src={urlFor(event[0].image).url()}
@@ -32,7 +32,7 @@ async function page({ params }: { params: { slug: string } }) {
               className="rounded-2xl md:rounded-xl lg:rounded-3xl object-cover"
             />
           </div>
-          <div className="mt-2 md:mt-4 lg:mt-0 relative md:w-[90%] w-[95%] mx-auto  xl:h-[67vh] md:h-max h-[50vh]  lg:w-[38%] px-4 py-4 rounded-2xl md:rounded-xl lg:rounded-3xl bg-black text-white">
+          <div className="mt-2 md:mt-4 lg:mt-0 relative md:w-[90%] w-[95%] mx-auto  xl:h-[75vh] md:h-max h-[50vh]  lg:w-[38%] px-4 py-4 rounded-2xl md:rounded-xl lg:rounded-3xl bg-black text-white">
             <h1 className="font-extrabold text-xl md:text-2xl lg:text-3xl">
               {event[0].title}
             </h1>
