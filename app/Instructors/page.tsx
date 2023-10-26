@@ -1,11 +1,11 @@
 import { Image } from "sanity";
 import { client } from "../utils/client";
 import SampleCard from "./(InstructorComponents)/SampleCard";
-import ArrowSuccess from "./../(UIcomponents)/ArrowSuccess";
-import HeroContent from "./../(UIcomponents)/HeroContent";
-import HeroImage from "./../(UIcomponents)/HeroImage";
-import RedBanner from "./../(UIcomponents)/RedBanner";
-import { Arrow, Play } from "./../(UIcomponents)/Vectors";
+import ArrowSuccess from "../(UIcomponents)/ArrowSuccess";
+import HeroContent from "../(UIcomponents)/HeroContent";
+import HeroImage from "../(UIcomponents)/HeroImage";
+import RedBanner from "../(UIcomponents)/RedBanner";
+import { Arrow, Play } from "../(UIcomponents)/Vectors";
 
 type Instructor = {
   name: string;
