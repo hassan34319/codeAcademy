@@ -57,7 +57,7 @@ function Navbar({}: Props) {
             <Link className="text-white my-2" href="/apply">
               Apply
             </Link>
-            <Link className="text-white my-2" href="/instructors">
+            <Link className="text-white my-2" href="/instructor">
               Instructors
             </Link>
             <Link className="text-white my-2" href="/events">
@@ -98,7 +98,7 @@ function Navbar({}: Props) {
         <Link className="hidden lg:flex text-white" href="/apply">
           Apply
         </Link>
-        <Link className="text-white" href="/instructors">
+        <Link className="text-white" href="/instructor">
           Instructors
         </Link>
         <Link className="text-white" href="/events">
